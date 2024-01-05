@@ -1,3 +1,10 @@
+//finding nearest 2 power number
+//then checking how many setbits before the  nearest 2 power number
+// to check that use x*2^(x-1)
+//then check remaining bits are avialabel
+// then by using recursion finding the setbits for (n - 2^x);
+
+
 #include<bits/stdc++.h>
 using namespace std;
 int nearest2Pow(int n){
