@@ -3,7 +3,7 @@
 // to check that use x*2^(x-1)
 //then check remaining bits are avialabel
 // then by using recursion finding the setbits for (n - 2^x);
-
+// Every 2*power number before every row contain 2**(n - 1) number of ones;
 
 #include<bits/stdc++.h>
 using namespace std;
